@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bggradient"
-    tools:context=".LoginActivity">
+    tools:context=".sign_in">
 
         <ImageView
             android:id="@+id/logo"
@@ -58,7 +58,7 @@
             android:layout_height="55dp"
             android:layout_marginBottom="8dp"
             android:text="@string/SignIn"
-            android:background=" "
+            android:background="@color/cardview_shadow_end_color"
             app:layout_constraintBottom_toTopOf="@+id/signup"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -70,7 +70,7 @@
             android:layout_height="55dp"
             android:layout_marginBottom="121dp"
             android:text="@string/SignUp"
-            android:background=" "
+            android:background="@color/cardview_shadow_end_color"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@+id/signin"
             app:layout_constraintStart_toStartOf="@+id/signin"
