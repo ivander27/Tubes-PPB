@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">SignUp</string>
+    <string name="app_name">Login</string>
     <string name="logo">Logo</string>
     <string name="email">Email</string>
     <string name="nama">Nama</string>
@@ -7,4 +7,6 @@
     <string name="confrim_pass">Confrim Password</string>
     <string name="back">Back</string>
     <string name="signup">Sign Up</string>
+    <string name="SignIn">Sign In</string>
+    <string name="SignUp">Sign Up</string>
 </resources>
