@@ -10,4 +10,17 @@
     <string name="SignIn">Sign In</string>
     <string name="SignUp">Sign Up</string>
     <string name="register">register</string>
+
+    <string-array name="novel_array">
+        <item>Novel 1</item>
+        <item>Novel 2</item>
+        <item>Novel 3</item>
+        <item>Novel 4</item>
+        <item>Novel 5</item>
+        <item>Novel 6</item>
+        <item>Novel 7</item>
+        <item>Novel 8</item>
+        <item>Novel 9</item>
+        <item>Novel 10</item>
+    </string-array>
 </resources>

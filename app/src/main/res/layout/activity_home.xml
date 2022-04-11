@@ -4,6 +4,107 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
     tools:context=".Home">
+
+    <!--    <TextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:id="@+id/tv_emptyTextView"-->
+    <!--        android:text="Mon maaf gaada"-->
+    <!--        android:textSize="20sp"-->
+    <!--        android:visibility="gone"-->
+    <!--        android:layout_centerInParent="true"-->
+    <!--        android:textColor="@color/white"/>-->
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/appBarLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/main_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/design_default_color_error"
+            app:layout_constraintStart_toEndOf=""
+            app:layout_constraintStart_toStartOf="parent" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="188dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="266dp"
+        android:contentDescription="@string/logo"
+        android:scaleType="matrix"
+        android:src="@drawable/americanpride"
+        app:layout_constraintBottom_toTopOf="@+id/novel_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/novel_1"
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/purple_700"
+        android:text="novel 1"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/novel_2"
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:backgroundTint="@color/purple_700"
+        android:text="novel 2"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/novel_1" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/novel_3"
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:backgroundTint="@color/purple_700"
+        android:text="novel 3"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/novel_2" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/novel_4"
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:backgroundTint="@color/purple_700"
+        android:text="novel 4"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/novel_3" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/novel_5"
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:backgroundTint="@color/purple_700"
+        android:text="novel 5"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/novel_4" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
