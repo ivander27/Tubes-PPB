@@ -30,7 +30,7 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="@color/design_default_color_error"
-            app:layout_constraintStart_toEndOf=""
+            app:layout_constraintStart_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
     </com.google.android.material.appbar.AppBarLayout>
 

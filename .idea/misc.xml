@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/PPB/Tubes-PPB/app/src/main/res/layout/activity_baca.xml" value="0.1" />
+        <entry key="..\:/PPB/Tubes-PPB/app/src/main/res/layout/activity_home.xml" value="0.2015625" />
+        <entry key="..\:/PPB/Tubes-PPB/app/src/main/res/layout/activity_sign_in.xml" value="0.2015625" />
+        <entry key="..\:/PPB/Tubes-PPB/app/src/main/res/layout/activity_sign_up.xml" value="0.18659420289855072" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Tubes-PPB/app/src/main/res/drawable/backgroundlistnovel.xml" value="0.1015" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Tubes-PPB/app/src/main/res/drawable/bggradient.xml" value="0.1945" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Tubes-PPB/app/src/main/res/drawable/ic_search.xml" value="0.1945" />

@@ -10,7 +10,6 @@ import android.widget.SearchView
 
 class Home : AppCompatActivity() {
 
-    private Toolbar main_toolbar
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
