@@ -5,12 +5,13 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import android.view.View
 import android.widget.Button
+import android.widget.Toast
 
 class sign_in : AppCompatActivity(), View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_in)
-
+        Toast.makeText(this ,"firebase connection succes",Toast.LENGTH_LONG).show()
         val button_signin: Button = findViewById(R.id.button_signin)
         val button_Register: Button = findViewById(R.id.button_register)
 
