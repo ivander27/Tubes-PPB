@@ -19,16 +19,16 @@ class sign_in : AppCompatActivity(), View.OnClickListener {
                 button_Register.setOnClickListener(this)
                 }
                 override fun onClick(v: View) {
-                when (v.id) {
-                R.id.button_signin -> {
-                                val moveBack = Intent(this@sign_in, Home::class.java)
-                                startActivity(moveBack)
+                        when (v.id) {
+                        R.id.button_signin -> {
+                                        val moveBack = Intent(this@sign_in, Home::class.java)
+                                        startActivity(moveBack)
+                                }
+                                R.id.button_register -> {
+                                        val moveSignUp = Intent(this@sign_in, SignUp::class.java)
+                                        startActivity(moveSignUp)
+                                }
                         }
-                        R.id.button_register -> {
-                                val moveSignUp = Intent(this@sign_in, SignUp::class.java)
-                                startActivity(moveSignUp)
-                        }
-                }
                 }
         }
 
