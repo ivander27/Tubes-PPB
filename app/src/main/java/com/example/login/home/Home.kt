@@ -1,12 +1,8 @@
-package com.example.login
+package com.example.login.home
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.Menu
-import android.view.MenuItem
-import android.widget.AdapterView
-import android.widget.ArrayAdapter
-import android.widget.SearchView
+import com.example.login.R
 
 class Home : AppCompatActivity() {
 

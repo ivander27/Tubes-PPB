@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/bggradient"
     android:orientation="vertical"
-    tools:context=".SignUp">
+    tools:context=".signup.SignUp">
     <ScrollView
         android:id="@+id/scroll"
         android:layout_width="match_parent"
@@ -24,7 +24,17 @@
                 android:layout_height="wrap_content"
                 android:src="@drawable/americanpride"/>
             <EditText
-                android:id="@+id/email"
+                android:id="@+id/name_regis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/namaRegis"
+                android:textColorHint="@color/white"
+                android:backgroundTint="@color/white"
+                android:layout_margin="20dp"
+                android:textSize="30dp"
+                android:shadowColor="@color/white"/>
+            <EditText
+                android:id="@+id/email_regis"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/email"
@@ -35,7 +45,7 @@
                 android:shadowColor="@color/white"/>
 
             <EditText
-                android:id="@+id/password"
+                android:id="@+id/password_regis"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/password"
@@ -45,7 +55,7 @@
                 android:textSize="30dp" />
 
             <EditText
-                android:id="@+id/confrimpass"
+                android:id="@+id/confrimpass_regis"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/confrim_pass"
@@ -55,7 +65,7 @@
                 android:textSize="30dp" />
 
             <Button
-                android:id="@+id/button_back"
+                android:id="@+id/button_back_regis"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
@@ -64,7 +74,7 @@
                 android:textColor="@color/black"/>
 
             <Button
-                android:id="@+id/button_sign_up"
+                android:id="@+id/button_sign_up_regis"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"

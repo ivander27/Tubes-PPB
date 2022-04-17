@@ -10,16 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Login">
         <activity
-            android:name=".SignUp"
+            android:name=".signup.SignUp"
             android:exported="false" />
         <activity
-            android:name=".Home"
+            android:name=".home.Home"
             android:exported="false" />
         <activity
-            android:name=".profile"
+            android:name=".profile.profile"
             android:exported="false" />
         <activity
-            android:name=".sign_in"
+            android:name=".login.sign_in"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
